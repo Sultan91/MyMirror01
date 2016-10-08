@@ -1,0 +1,152 @@
+@charset "UTF-8";
+ 
+#musicViz{
+		align: right;
+		position: absolute;
+        bottom: 20px;
+		 
+		margin-right: auto;
+		left: 85%;
+		right: 0;
+}
+#micro{
+		background-color:black !important;
+		position: absolute;
+        bottom: 0;
+		margin-right: auto;
+		left: 50%;
+		right: 0;
+}
+
+#play{
+	background-color:black !important;
+	position: absolute;
+        bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+}
+#bars {
+    
+	 
+	 	
+    
+    
+	
+     
+}
+
+.bar {
+   background: #FF4500;
+    bottom: 0;
+    height: 8px;
+    position: absolute;
+    width: 3px;
+	
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+
+@keyframes sound {
+    0% {
+       opacity: .35;
+        height: 3px; 
+    }
+	50% {
+       opacity: .65;
+        height: 20px; 
+    }
+    100% {
+        opacity: 1;       
+        height: 40px;        
+    }
+}
+
+.bar:nth-child(1)  { left: 1px; animation-duration: 474ms; }
+.bar:nth-child(2)  { left: 8px; animation-duration: 433ms; }
+.bar:nth-child(3)  { left: 15px; animation-duration: 407ms; }
+.bar:nth-child(4)  { left: 22px; animation-duration: 458ms; }
+.bar:nth-child(5)  { left: 29px; animation-duration: 400ms; }
+.bar:nth-child(6)  { left: 36px; animation-duration: 427ms; }
+.bar:nth-child(7)  { left: 43px; animation-duration: 441ms; }
+.bar:nth-child(8)  { left: 50px; animation-duration: 419ms; }
+.bar:nth-child(9)  { left: 57px; animation-duration: 487ms; }
+.bar:nth-child(10) { left: 64px; animation-duration: 442ms; }
+.bar:nth-child(11) { left: 71px; animation-duration: 403ms; }
+.bar:nth-child(12) { left: 78px; animation-duration: 423ms; }
+.bar:nth-child(13) { left: 85px; animation-duration: 434ms; }
+.bar:nth-child(14) { left: 92px; animation-duration: 408ms; }
+.bar:nth-child(15) { left: 99px; animation-duration: 458ms; }
+.bar:nth-child(16) { left: 106px; animation-duration: 508ms; }
+.bar:nth-child(17) { left: 113px; animation-duration: 150ms; }
+.bar:nth-child(18) { left: 120px; animation-duration: 600ms; }
+.bar:nth-child(19) { left: 127px; animation-duration: 400ms; }
+.bar:nth-child(20) { left: 134px; animation-duration: 358ms; }
+.bar:nth-child(21) { left: 141px; animation-duration: 432ms; }
+.bar:nth-child(22) { left: 148px; animation-duration: 499ms; }
+.bar:nth-child(23) { left: 155px; animation-duration: 520ms; }
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.temporary {
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+}
+
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.5, 1.5, 1.05);
+    transform: scale3d(1.09, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.5, 1.5, 1.05);
+    transform: scale3d(1.08, 0.95, 1.08);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+

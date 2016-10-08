@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="background">
+<head>
+<meta charset="utf-8">
+<title>Mirror</title>
+<meta name="description" content="mirror">
+<!--<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>-->
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="js/fancybox/jquery.fancybox.js"></script>
+		<script src="js/fancybox/jquery.fancybox-buttons.js"></script>
+		<script src="js/fancybox/jquery.fancybox-thumbs.js"></script>
+        <script src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+		<script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	    <script type="text/javascript" src="all.js"></script>
+		<script type="text/javascript" src="test2.js"></script>
+<!-- Latest compiled and minified CSS -->
+
+ <link rel="stylesheet" href="play.css">
+  <link rel="stylesheet" href="Micro/font-awesome-4.6.3/css/font-awesome.min.css">
+	 <link rel="stylesheet" type="text/css" href="Micro/mic.css">
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="sun.css">
+ 
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script|Indie+Flower|Open+Sans+Condensed:300|Pacifico|Quicksand|Marck+Script|Open+Sans+Condensed:300" rel="stylesheet">
+ 	
+</head>
+<body>
+
+
+	<a id="wrapper1" class="various fancybox-close">
+			<a id="1" class="various fancybox.iframe" title="Отряд самоубийц" href="https://www.youtube.com/v/CmRih_VtVAs?fas=1&amp;autoplay=1"> </a>
+			</a>
+			<a id="2" class="various fancybox.iframe" title="Moana" href="https://www.youtube.com/v/L14tkEbOMzY?fas=1&amp;autoplay=1"> </a>
+							
+    <div>
+         <div id="input"></div>
+		<div id="player"></div>
+        <p id="out"></p>
+       
+		
+    </div>
+<h1 class="text-center" id="h1">Добро пожаловать!</h1>
+
+
+
+<div class="col-md-6">
+
+<p id="date"></p>
+
+<script>
+var months = ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'];  
+var month=new Date();
+document.getElementById("date").innerHTML = months[month.getMonth()]+', '+month.getDate();
+</script>
+
+<iframe src="http://free.timeanddate.com/clock/i5c2bvg9/n166/szw250/szh250/hoc000/hbw0/hfc000/cf100/hgr0/hcw2/facfff/fdi68/mqcfff/mql15/mqw4/mqd94/mhcfff/mhl15/mhw4/mhd94/mmv0/hhcbbb/hmcddd/hsceee" frameborder="0" width="250" height="250">
+</iframe>
+
+<div class="text-left" id="weather-widget">
+
+<div id="weather"></div>
+<div id="temp"></div>
+<br>
+<div class="animation"></div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="text-right" id="news-widget">
+	<!-- start feedwind code -->
+  <script type="text/javascript">
+    document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+</script>
+<script type="text/javascript">
+  (function() {var params = {rssmikle_url: "http://hi-news.ru/feed",
+                             rssmikle_frame_width: "330",rssmikle_frame_height: "400",
+                             frame_height_by_article: "4",rssmikle_target: "_blank",
+                             rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "14",
+                             rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",
+                             text_align: "left",text_align2: "left",corner: "off",scrollbar: "off",
+                             autoscroll: "on",scrolldirection: "down",scrollstep: "3",mcspeed: "20",sort: "New",
+                             rssmikle_title: "on",rssmikle_title_sentence: "",rssmikle_title_link: "",
+                             rssmikle_title_bgcolor: "#0074D9",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",
+                             rssmikle_item_bgcolor: "#000000",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",
+                             rssmikle_item_title_color: "#FFFFFF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",
+                             item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#FFFFFF",
+                             rssmikle_item_date: "on",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",
+                             item_description_style: "text+tn",item_thumbnail: "crop",item_thumbnail_selection: "auto",
+                             article_num: "7",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};
+               feedwind_show_widget_iframe(params);})();</script>
+<div style="font-size:10px; text-align:center; width:330px;">
+
+</div>
+</div>
+</div>
+</div>
+ <div id="musicViz"></div>
+</body>
+
+ <audio id="audio" preload="auto" tabindex="0" controls="" >
+    <source src="mike_posner.mp3"> 
+  </audio>
+  
+   
+ 
+  
+  <ul id="playlist">
+            <p class="active">
+                <a href="Zemphira.mp3">
+					
+                </a>
+            </p>
+            <p>
+                <a href="sia_feat_sean_paul.mp3">
+                   
+                </a>
+            </p>
+            <p>
+                <a href="vremja_i_steklo.mp3">
+                    
+                </a>
+            </p>
+            <p>
+                <a href="leningrad_-_eksponat.mp3">
+                    
+                </a>
+            </p>
+    </ul>
+<i id="micro" class="fa fa-microphone fa-5x temporary animated pulse" aria-hidden="true"></i>
+
+<!-- Latest compiled and minified JavaScript -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+ integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+ 
+  
+</html>
