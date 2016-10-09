@@ -1,4 +1,4 @@
-var accessToken = "4f31dfaa0a724bcba7e405e94edf0b69";
+var accessToken = "your-access-token-from-api.ai";
         var baseUrl = "https://api.api.ai/v1/";
 		  $(document).ready(function() {
 			  //--------------------------------------- YouTube API
